@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
-
 enum AbilityScalarType {
 	UNKNOW = 0;
 	FLOAT = 1;

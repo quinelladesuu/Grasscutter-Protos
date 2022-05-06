@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
-
 enum AbilityInvokeArgument {
 	ABILITY_NONE = 0;
 	ABILITY_META_MODIFIER_CHANGE = 1;

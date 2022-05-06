@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
-
 enum HitColliderType {
 	HIT_COLLIDER_INVALID = 0;
 	HIT_COLLIDER_HIT_BOX = 1;

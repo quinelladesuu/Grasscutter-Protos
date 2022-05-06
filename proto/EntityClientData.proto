@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
-
 
 message EntityClientData {
 	uint32 wind_change_scene_time = 1;

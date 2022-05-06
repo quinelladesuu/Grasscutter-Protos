@@ -1,6 +1,5 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
 
 message WorktopInfo {
 	repeated uint32 option_list = 1;

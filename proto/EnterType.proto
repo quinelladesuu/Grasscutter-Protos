@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
-
 enum EnterType {
 	ENTER_NONE = 0;
 	ENTER_SELF = 1;

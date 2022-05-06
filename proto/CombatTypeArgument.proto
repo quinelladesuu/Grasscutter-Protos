@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
-
 enum CombatTypeArgument {
 	COMBAT_NONE = 0;
 	COMBAT_EVT_BEING_HIT = 1;

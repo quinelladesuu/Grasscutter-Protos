@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
-
 enum VisionType {
 	VISION_NONE = 0;
 	VISION_MEET = 1;

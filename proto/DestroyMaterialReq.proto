@@ -1,8 +1,6 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
-
-import "MaterialInfo.proto";
+import "MaterilaInfo.proto";
 
 message DestroyMaterialReq {
 	enum CmdId {
@@ -14,5 +12,5 @@ message DestroyMaterialReq {
 		CMD_ID = 687;
 	}
 
-	repeated MaterialInfo material_list = 1;
+	repeated MaterilaInfo material_list = 1;
 }

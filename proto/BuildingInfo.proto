@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
-
 
 message BuildingInfo {
 	uint32 building_id = 1;

@@ -1,9 +1,7 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
-
 import "PropChangeReason.proto";
-import "ChangeHpReason.proto";
+import "ChangHpReason.proto";
 import "ChangeEnergyReason.proto";
 
 message EntityFightPropChangeReasonNotify {
@@ -20,6 +18,6 @@ message EntityFightPropChangeReasonNotify {
 	float prop_delta = 3;
 	PropChangeReason reason = 4;
 	repeated uint32 param_list = 5;
-	ChangeHpReason change_hp_reason = 6;
+	ChangHpReason change_hp_reason = 6;
 	ChangeEnergyReason change_energy_reson = 7;
 }

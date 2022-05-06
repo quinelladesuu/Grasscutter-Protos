@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
-
 enum ResinCostType {
 	NONE = 0;
 	NORMAL = 1;

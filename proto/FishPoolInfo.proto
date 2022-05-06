@@ -1,6 +1,5 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
 
 message FishPoolInfo {
 	uint32 pool_id = 1;

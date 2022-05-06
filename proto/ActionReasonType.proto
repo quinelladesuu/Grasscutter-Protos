@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
-
 enum ActionReasonType {
 	ACTION_REASON_NONE = 0;
 	ACTION_REASON_QUEST_ITEM = 1;

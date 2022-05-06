@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-option java_package = "emu.grasscutter.net.proto";
-
 import "Material.proto";
 import "Equip.proto";
 import "Furniture.proto";
